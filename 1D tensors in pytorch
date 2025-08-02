@@ -1,0 +1,6 @@
+import torch  #imports or integrates the pytorch library to the code
+x = torch.arange(12,dtype=torch.float32)  #aranges numbers from 0 to 11 which makes a total of 12 characters as in the code. or in more advance way it creates 1D tensors
+
+x
+#dtype - refers to the data type of the value
+#float32-refers that the  data is in float i.e. N + decimal no. 32 here means the number of bits assigned to  the float dtype in the memory
